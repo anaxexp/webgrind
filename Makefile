@@ -7,7 +7,7 @@ REPO = anaxexp/webgrind
 NAME = webgrind-$(WEBGRIND_VER)
 
 PHP_VER ?= 7.1
-BASE_IMAGE_TAG = $(PHP_VER)
+BASE_IMAGE_TAG = $(PHP_VER)-2.1.0
 
 ifneq ($(STABILITY_TAG),)
     ifneq ($(TAG),latest)
