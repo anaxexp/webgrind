@@ -1,6 +1,6 @@
 ARG BASE_IMAGE_TAG
 
-FROM anaxexperience/php:${BASE_IMAGE_TAG}
+FROM anaxexp/php:${BASE_IMAGE_TAG}
 
 ARG WEBGRIND_VER
 

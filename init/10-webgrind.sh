@@ -6,4 +6,4 @@ if [[ -n "${DEBUG}" ]]; then
     set -x
 fi
 
-gotpl '/etc/gotpl/config.php.tpl' > "${WEBGRIND_ROOT}/config.php"
+gotpl '/etc/gotpl/config.php.tmpl' > "${WEBGRIND_ROOT}/config.php"
