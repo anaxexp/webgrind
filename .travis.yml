@@ -1,0 +1,13 @@
+language: bash
+
+services:
+  - docker
+
+env:
+  - WEBGRIND_VER=1.5 TAGS=1.5,1,latest
+
+script:
+  - make && make test
+
+after_success:
+  - . "${TRAVIS_BUILD_DIR}/release.sh"
